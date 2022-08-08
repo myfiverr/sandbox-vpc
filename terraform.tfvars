@@ -20,7 +20,7 @@ subnet_details = {
     availability_zone = "us-east-1b",
     map_public_ip     = true,
   },
-  public2 = {
+  public3 = {
     subnet_name       = "Public_Subnet_3"
     cidr_block        = "10.78.25.0/24",
     availability_zone = "us-east-1c",
@@ -50,13 +50,13 @@ subnet_details = {
     availability_zone = "us-east-1a",
     map_public_ip     = false,
   },
-  database1 = {
+  database2 = {
     subnet_name       = "Private_Subnet_1",
     cidr_block        = "10.78.30.0/24",
     availability_zone = "us-east-1b",
     map_public_ip     = false,
   },
-  database1 = {
+  database3 = {
     subnet_name       = "Private_Subnet_1",
     cidr_block        = "10.78.31.0/24"
     availability_zone = "us-east-1c",
