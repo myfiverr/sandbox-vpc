@@ -1,13 +1,16 @@
 variable "region" {
   description = "The region to launch the host"
+  default = "us-east-1"
 }
 
 variable "vpc_cidr" {
   description = "The CIDR block of the VPC"
+  default = "10.78.0.0/16"
 }
 
 variable "vpc_name" {
   description = "The name tag for the VPC"
+  default = "Sandbox VPC"
 }
 
 variable "owner" {
@@ -24,4 +27,12 @@ variable "environment" {
 
 variable "subnet_details" {
   description = "The Subnet details"
+}
+
+variable aws_access_key {
+  description = "AWS Access Key"
+}
+
+variable "aws_secret_key" {
+  description = "AWS Secret Key"
 }
