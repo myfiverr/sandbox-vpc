@@ -1,6 +1,6 @@
 variable "region" {
   description = "The region to launch the host"
-  default = "us-west-1"
+  default = "us-east-1"
 }
 
 variable "vpc_cidr" {
