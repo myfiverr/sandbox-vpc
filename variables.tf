@@ -1,6 +1,6 @@
 variable "region" {
   description = "The region to launch the host"
-  default = "us-east-1"
+  default = "us-west-1"
 }
 
 variable "vpc_cidr" {
@@ -23,10 +23,6 @@ variable "project_name" {
 
 variable "environment" {
   description = "The environment name"
-}
-
-variable "subnet_details" {
-  description = "The Subnet details"
 }
 
 variable aws_access_key {
